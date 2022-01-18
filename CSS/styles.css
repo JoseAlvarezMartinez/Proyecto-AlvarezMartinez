@@ -31,13 +31,6 @@ html {
   a {
     text-decoration: none;
   }
-  .header-contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
-  }
   .no-margin {
     margin: 0;
   }
@@ -47,6 +40,14 @@ html {
   .texto-centrado {
     text-align: center;
   }
+  /*Header Generales*/
+  .header-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  } 
   .header {
     background-image: url(../IMG/headerbackground.png);
     background-size: cover;
@@ -110,14 +111,43 @@ html {
     .navegacion__enlace {
       margin: 0 1rem;
     }
-/*Sobre Mi*/
+    /*Fin header generales*/
+
+/*Sobre Mi Generales*/
 .sobre-mi-contenedor {
     margin: 0 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/*Mis Servicios*/
+/*Fin sobre mi generales*/
+/*Mis habilidades Generales*/
+.mis-habilidades__flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.habilidad{
+    margin: 1rem;
+}
+.mis-habilidades__aptitudes{
+    margin: 0 2rem;
+}
+/*Fin mis habilidades generales*/
+.html-imagen{
+    width: 8rem;
+}
+.css-imagen{
+    width: 8rem;
+}
+.js-imagen{
+    width: 9rem;
+}
+
+
+/*Mis Servicios */
 .servicios{
     background-color: rgba(0, 0, 0, 0.918);
     height:100%;
@@ -152,37 +182,8 @@ html {
 
 
 
-/*Habilidades*/
-.habilidades{
-    
-}
-.habilidades__h2{}
-.habilidades__h3{font-weight: 200;}
 
 
-.html-imagen{
-    width: 8rem;
-}
-.css-imagen{
-    width: 8rem;
-}
-.js-imagen{
-    width: 9rem;
-}
-
-.habilidades-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25rem;
-}
-.tecnologia{
-        margin:2rem;
-        text-align: center;
-}
-.aptitudes{
-    margin-left: 10rem;
-}
 /*Portfolio*/
 .portfolio{
     margin: 4rem 0;
@@ -268,7 +269,10 @@ html {
       flex-direction: column;
       align-items: center;
     }
-    
+    /*Mis Habilidades*/
+    .mis-habilidades__flex{
+        flex-direction: column;
+    }
     /*Servicios*/
     .grid{
         display: flex;
@@ -281,17 +285,7 @@ html {
 
 
     /*Habilidades*/
-    .habilidades-flex {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 55rem;
-    }
-    .tecnologia{
-        margin: .5rem 0;
-    }
-
+    
     /*Portfolio*/
     .proyectos {
         display: flex;
@@ -330,9 +324,7 @@ html {
       flex-direction: column;
       align-items: center;
     }
-    .habilidades-flex{
-        flex-wrap: wrap;
-    }
+    
     .servicio__texto {
         width: 40rem;
         margin: 0 auto;
@@ -412,9 +404,7 @@ html {
         padding: 0 1rem;
     }
 
-    .habilidades-flex{
-        flex-wrap: wrap;
-    }
+
     .grid{
         display: grid;  
         grid-template-columns: repeat(3,1fr); 
@@ -457,3 +447,4 @@ html {
     width: 20rem;
     text-align: center;
 }
+
