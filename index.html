@@ -17,47 +17,99 @@
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
-    <!-- Inicio del header -->
-    <header class="header">
-      <a href="index.html">
-        <h1 class="header__h1 no-margin texto-centrado">
-          José Alvarez <span class="header__h1--span">Martinez</span>
-        </h1>
-      </a>
-      <nav class="navegacion">
-        <ul class="navegacion__ul">
-          <li class="navegacion__li">
-            <a class="navegacion__enlace" href="index.html">Inicio</a>
-          </li>
-          <li class="navegacion__li">
-            <a class="navegacion__enlace" href="#servicios">Servicios</a>
-          </li>
-          <li class="navegacion__li">
-            <a class="navegacion__enlace" href="#sobremi">Sobre Mí</a>
-          </li>
-          <li class="navegacion__li">
-            <a class="navegacion__enlace" href="#habilidades">Habilidades</a>
-          </li>
-          <li class="navegacion__li">
-            <a class="navegacion__enlace" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="navegacion__li">
-            <a class="navegacion__enlace" href="#contactame">Contáctame</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="imagen-centrada">
+  <!-- Inicio del header -->
+  <header class="header">
+    <div class="header-contenedor">
+      <div class="header--barra-superior">
         <a href="index.html">
-          <img
-            class="imagen-desarrollador"
-            src="img/home.svg"
-            alt="Imagen de un desarrollador"
-          />
+          <h1 class="header__h1 no-margin texto-centrado">
+            José Alvarez Martinez
+          </h1>
         </a>
+        <nav class="navegacion">
+          <ul class="navegacion__ul no-margin no-padding">
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="">Inicio</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="">Sobre Mí</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="">Servicios</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="">Habilidades</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="">Portfolio</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="">Contáctame</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
-    <!-- Fin del header -->
+
+      <h2 class="header__h2 no-margin">
+        Hola! <span class="span-weight">Soy José Alvarez Martinez</span
+        ><span class="span-color"
+          >f r o n t e n d &nbsp; d e v e l o p e r</span
+        >
+      </h2>
+      <div class="header-botones">
+        <button class="boton-cv">Descargar CV</button>
+        <div class="botones">
+          <div class="boton linkedin">
+            <a
+              href="https://www.linkedin.com/in/jos%C3%A9-alvarez-martinez-621404211/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-linkedin"
+                width="35"
+                height="35"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#000000"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                <line x1="8" y1="11" x2="8" y2="16"></line>
+                <line x1="8" y1="8" x2="8" y2="8.01"></line>
+                <line x1="12" y1="16" x2="12" y2="11"></line>
+                <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="boton mail">
+            <a href="mailto:alvarezmjose2021@gmail.com">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-mail"
+                width="35"
+                height="35"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#000000"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <polyline points="3 7 12 13 21 7"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Fin del header -->
     <!-- Inicio de mis servicios -->
     <section class="servicios" id="servicios">
       <h2 class="servicios__h2 texto-centrado no-margin">Mis Servicios</h2>
