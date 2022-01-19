@@ -197,12 +197,9 @@ html {
   }
 /* Fin portfolio generales */
 
-/*Contactame*/
+/*Contactame generales*/
 .contactame{
     margin: 0 auto;
-}
-.contactame__h2{
-
 }
 .instagram-logo,.linkedin-logo,.wpp-logo{
     width: 8rem;
@@ -217,11 +214,10 @@ html {
     display: flex;   
     justify-content: space-around;
 }
-
-/*Footer*/
+/*Fin contacto generales*/
+/*Footer generales*/
 .footer{
     background-color: #000000;
-
 }
 .footer__texto{
     height: 3rem;
@@ -270,7 +266,6 @@ html {
  
     /*Contactame*/
     .contacto-flexbox {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
