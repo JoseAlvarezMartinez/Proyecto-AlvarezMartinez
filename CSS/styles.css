@@ -112,6 +112,9 @@ html {
     .navegacion__enlace {
       margin: 0 1rem;
     }
+    .navegacion__enlace:last-of-type{
+      margin-right: 0;
+    }
     /*Fin header generales*/
 
 /*Sobre Mi Generales*/
@@ -166,6 +169,7 @@ html {
 /*Portfolio generales*/
 .proyecto__imagen{
   width: 100%;
+  transition: .4s;
 }
 .proyecto__h3{
   font-weight: 200;
@@ -180,6 +184,9 @@ html {
   padding: .5rem 1rem;
   border-radius: .2rem;
   margin-bottom: 1rem;
+
+  cursor: pointer;
+  transition: .4s;
 }
 .contendor-portfolio{
   margin: 0 2rem;
@@ -317,6 +324,12 @@ html {
    /*Portfolio*/
    .contendor-portfolio{
     grid-template-columns: repeat(3,1fr); 
+    }
+    .proyecto__imagen:hover{
+      box-shadow: 0 0 1.5rem #000000;
+    }
+    .proyecto__boton:hover{
+      transform:scale(1.1) ;
     }
 }
 
