@@ -53,6 +53,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100%;
   }
   .header__h2 {
     display: flex;
@@ -121,6 +122,7 @@ html {
     align-items: center;
 }
 /*Fin sobre mi generales*/
+
 /*Mis habilidades Generales*/
 .mis-habilidades__flex{
     display: flex;
@@ -135,76 +137,32 @@ html {
 .mis-habilidades__aptitudes{
     margin: 0 2rem;
 }
-/*Fin mis habilidades generales*/
+.mis-habilidades__h3{
+    font-weight: 200;
+}
 .html-imagen{
-    width: 8rem;
+  width: 8rem;
 }
 .css-imagen{
-    width: 8rem;
+  width: 8rem;
 }
 .js-imagen{
-    width: 9rem;
+  width: 9rem;
 }
+/*Fin mis habilidades generales*/
 
-
-/*Mis Servicios */
+/*Servicios generales*/
 .servicios{
-    background-color: rgba(0, 0, 0, 0.918);
-    height:100%;
-
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
 }
-.servicios__h2{
-    padding-bottom: 1rem; 
-    margin-bottom: 2rem;
-    padding-top: 0;
+.servicios__texto{
+  margin: 0 2rem;
 }
+/*Fin servicios generales*/
 
-.servicio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem auto;
-}
-.servicio__titulo,.servicio__texto,.servicios__h2{
-    color: #fff;
-}
-.servicio__titulo{}
-.servicio__texto{}
-
-.desarrollo-web{}
-.responsive-design{}
-.a-tiempo{}
-
-
-
-
-
-
-/*Portfolio*/
-.portfolio{
-    margin: 4rem 0;
-}
-.proyectos{
-    display: grid;
-    column-gap: 1rem;
-    row-gap: 1rem;
-    grid-template-columns: repeat(3,1fr);
-}
-.proyectos__imagen{
-    width: 25rem;
-    transition: .3s;
-}
-.proyectos__imagen:hover{
-    box-shadow: 0 0 2rem black;
-}
-.portfolio-contenedor{
-    display: flex;
-    justify-content: center;
-}
 
 /*Contactame*/
 .contactame{
@@ -246,9 +204,6 @@ html {
 /*Mobile*/
 @media only screen and (max-width: 600px) {
     /*Header*/
-    .header {
-      height: 40rem;
-    }
     .header__h1 {
       font-size: 1.5rem;
     }
@@ -274,33 +229,7 @@ html {
         flex-direction: column;
     }
     /*Servicios*/
-    .grid{
-        display: flex;
-        flex-direction: column;
-    }
-    .servicio__texto{
-        width: 20rem;
-        margin: 0 auto;
-    }
-
-
-    /*Habilidades*/
-    
-    /*Portfolio*/
-    .proyectos {
-        display: flex;
-        flex-direction: column;
-    }
-    .proyectos__imagen{
-        width: 22rem;
-        transition: .3s;
-        margin: .5rem auto;
-    }
-
-    .proyectos__nombre{
-        margin: .7rem 0;
-    }
-   
+ 
     /*Contactame*/
     .contacto-flexbox {
         display: flex;
@@ -313,54 +242,12 @@ html {
 /*Tablet*/
 @media only screen and (min-width: 601px) and (max-width: 799px) {
     /*header*/
-    .header {
-      height: 30rem;
-    }
-    .navegacion__li {
-    }
-  
     .header-botones {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    
-    .servicio__texto {
-        width: 40rem;
-        margin: 0 auto;
-    }
-    /*Portfolio*/
-    .portfolio{
-        margin: 4rem 0;
-    }
-    .proyectos {
-        display: flex;
-        flex-direction: column;
-    }
-    .proyectos__imagen{
-        width: 27rem;
-        transition: .3s;
-        margin: .5rem auto;
-    }
-    
-    .proyecto-boton-centrado{
-        display: flex;
-        justify-content: center;
-    }
-    .proyectos__nombre{
-        margin: .7rem 0;
-    }
-    .proyectos__boton{
-        display: flex;
-        width: 9rem;
-        justify-content: center;
-        align-items: center;
-        border-radius: .2rem;
-        border: none;
-        height: 2rem;
-        background-color: rgba(128, 128, 128, 0.39);
-        margin: .3rem 0;
-    }
+
 }
 /*Laptop*/
 @media only screen and (min-width: 800px){
@@ -381,70 +268,14 @@ html {
     .navegacion__enlace:hover,.navegacion__enlace:focus{
         background-size: 100% 2px;
     }
-
-
-    .proyectos {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+    /*Sobre mi*/
+    .sobre-mi__texto{
+        margin: 1rem 8rem;
     }
-    .proyectos__imagen {
-        width: 23rem;
-    }
-    .servicio{
-        margin: 0 1rem;
-    }
-    .fondo-oscuro {
-        background-color: rgba(0, 0, 0, 0.5);
-        width: 44rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 31rem;
-        padding: 0 1rem;
-    }
-
-
-    .grid{
-        display: grid;  
-        grid-template-columns: repeat(3,1fr); 
-        column-gap: 1rem;
-       }
-       .servicio__texto {
-           margin: 0 1rem;
-       }
-       .proyectos {
-           display: grid;
-           grid-template-columns: repeat(3,1fr);
-       }
-       .portfolio{
-           margin: 0;
-       }
+    /*Servicios*/
+   .mis-servicios-flex{
+     display: flex;
+   }
 }
 
-.proyectos__boton:hover{
-    transform:scale(1.2);
-}
-.proyectos__boton{
-    cursor: pointer;
-    transition: .2s;
-    display: flex;
-    width: 9rem;
-    justify-content: center;
-    align-items: center;
-    border-radius: .2rem;
-    border: none;
-    height: 2rem;
-    background-color: rgba(128, 128, 128, 0.39);
-    margin: .3rem 0;
-}
-
-.proyecto-boton-centrado{
-    display: flex;
-    justify-content: center;
-}
-.aptitudes {
-    width: 20rem;
-    text-align: center;
-}
 

@@ -29,13 +29,13 @@
           <nav class="navegacion">
             <ul class="navegacion__ul no-margin no-padding">
               <li class="navegacion__li">
-                <a class="navegacion__enlace" href="">Inicio</a>
+                <a class="navegacion__enlace" href="index.html">Inicio</a>
               </li>
               <li class="navegacion__li">
-                <a class="navegacion__enlace" href="">Sobre Mí</a>
+                <a class="navegacion__enlace" href="#sobremi">Sobre Mí</a>
               </li>
               <li class="navegacion__li">
-                <a class="navegacion__enlace" href="">Habilidades</a>
+                <a class="navegacion__enlace" href="#habilidades">Habilidades</a>
               </li>
               <li class="navegacion__li">
                 <a class="navegacion__enlace" href="">Servicios</a>
@@ -111,7 +111,7 @@
     </header>
     <!-- Fin del header -->
     <!-- Inicio sobre mi -->
-    <section class="sobre-mi">
+    <section id="sobremi" class="sobre-mi">
       <h2 class="sobre-mi__h2 texto-centrado">Sobre Mi</h2>
       <div class="sobre-mi-contenedor">
         <svg
@@ -148,11 +148,10 @@
         </p>
       </div>
     </section>
-
     <!-- Fin sobre mi -->
 
     <!-- Inicio de mis habilidades -->
-    <section class="mis-habilidades">
+    <section id="habilidades" class="mis-habilidades">
       <h2 class="mis-habilidades__h2 texto-centrado">Mis Habilidades</h2>
       <h3 class="mis-habilidades__h3 texto-centrado">Tecnologías que manejo</h3>
         <div class="mis-habilidades__flex">
@@ -179,120 +178,56 @@
     </section>
     <!-- Fin de mis habilidades -->
 
+    <!-- Inicio de mis servicios  -->
+    <section class="mis-servicios">
+      <h2 class="mis-servicios__h2 texto-centrado">Mis Servicios</h2>
+      <div class="mis-servicios-flex">
+      <div class="servicios desarrollo-web">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="3" y1="19" x2="21" y2="19" />
+          <rect x="5" y="6" width="14" height="10" rx="1" />
+        </svg>
+        <h3 class="servicios__titulo">Desarrollo Web</h3>
+        <p class="servicios__texto texto-centrado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia esse dolorem minima veniam architecto obcaecati tenetur at distinctio nobis! Illum sed labore expedita magni! Vero error odio est adipisci ratione aperiam numquam hic, accusantium ut dolor, harum illo sequi. Inventore?</p>
+      </div>
+        
+      <div class="servicios responsive">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <rect x="13" y="8" width="8" height="12" rx="1" />
+          <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
+          <line x1="16" y1="9" x2="18" y2="9" />
+        </svg>
+        <h3 class="servicios__titulo">Responsive Design</h3>
+        <p class="servicios__texto texto-centrado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia esse dolorem minima veniam architecto obcaecati tenetur at distinctio nobis! Illum sed labore expedita magni! Vero error odio est adipisci ratione aperiam numquam hic, accusantium ut dolor, harum illo sequi. Inventore?</p>
+      </div>
+
+      <div class="servicios a-tiempo">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <circle cx="12" cy="12" r="9" />
+          <polyline points="12 7 12 12 15 15" />
+        </svg>
+        <h3 class="servicios__titulo">A tiempo</h3>
+        <p class="servicios__texto texto-centrado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia esse dolorem minima veniam architecto obcaecati tenetur at distinctio nobis! Illum sed labore expedita magni! Vero error odio est adipisci ratione aperiam numquam hic, accusantium ut dolor, harum illo sequi. Inventore?</p>
+      </div>
+    </div>
+    </section>
+
+
+    <!-- Fin de mis servicios -->
+
+
+
 
 
 
     <!-- Inicio de mi Portfolio -->
-    <main class="portfolio" id="portfolio">
-      <h2 class="texto-centrado">Portfolio</h2>
-      <div class="portfolio-contenedor">
-        <div class="proyectos">
-          <div class="proyecto">
-            <a href="#">
-              <img
-                class="proyectos__imagen"
-                src="img/coomingsoon.jpg"
-                alt="Proximo proyecto"
-              />
-            </a>
-            <h3 class="proyectos__nombre texto-centrado">
-              Nombre del proyecto
-            </h3>
-            <div class="proyecto-boton-centrado">
-              <a href="#">
-                <button class="proyectos__boton">Ver Proyecto</button>
-              </a>
-            </div>
-          </div>
-          <div class="proyecto">
-            <a href="#">
-              <img
-                class="proyectos__imagen"
-                src="img/coomingsoon.jpg"
-                alt="Proximo proyecto"
-              />
-            </a>
-            <h3 class="proyectos__nombre texto-centrado">
-              Nombre del proyecto
-            </h3>
-            <div class="proyecto-boton-centrado">
-              <a href="#">
-                <button class="proyectos__boton">Ver Proyecto</button>
-              </a>
-            </div>
-          </div>
-          <div class="proyecto">
-            <a href="#">
-              <img
-                class="proyectos__imagen"
-                src="img/coomingsoon.jpg"
-                alt="Proximo proyecto"
-              />
-            </a>
-            <h3 class="proyectos__nombre texto-centrado">
-              Nombre del proyecto
-            </h3>
-            <div class="proyecto-boton-centrado">
-              <a href="#">
-                <button class="proyectos__boton">Ver Proyecto</button>
-              </a>
-            </div>
-          </div>
-          <div class="proyecto">
-            <a href="#">
-              <img
-                class="proyectos__imagen"
-                src="img/coomingsoon.jpg"
-                alt="Proximo proyecto"
-              />
-            </a>
-            <h3 class="proyectos__nombre texto-centrado">
-              Nombre del proyecto
-            </h3>
-            <div class="proyecto-boton-centrado">
-              <a href="#">
-                <button class="proyectos__boton">Ver Proyecto</button>
-              </a>
-            </div>
-          </div>
-          <div class="proyecto">
-            <a href="#">
-              <img
-                class="proyectos__imagen"
-                src="img/coomingsoon.jpg"
-                alt="Proximo proyecto"
-              />
-            </a>
-            <h3 class="proyectos__nombre texto-centrado">
-              Nombre del proyecto
-            </h3>
-            <div class="proyecto-boton-centrado">
-              <a href="#">
-                <button class="proyectos__boton">Ver Proyecto</button>
-              </a>
-            </div>
-          </div>
-          <div class="proyecto">
-            <a href="#">
-              <img
-                class="proyectos__imagen"
-                src="img/coomingsoon.jpg"
-                alt="Proximo proyecto"
-              />
-            </a>
-            <h3 class="proyectos__nombre texto-centrado">
-              Nombre del proyecto
-            </h3>
-            <div class="proyecto-boton-centrado">
-              <a href="#">
-                <button class="proyectos__boton">Ver Proyecto</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+
     <!-- Fin del portfolio -->
+
+
     <!-- Inicio de contacto -->
     <section class="contactame" id="contactame">
       <h2 class="contactame__h2 texto-centrado">Contáctame</h2>
