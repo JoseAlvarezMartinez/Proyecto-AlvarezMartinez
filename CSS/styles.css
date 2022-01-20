@@ -307,6 +307,7 @@ html {
     }
     .navegacion__enlace:hover,.navegacion__enlace:focus{
         background-size: 100% 2px;
+        color:var(--blanco)
     }
     /*Sobre mi*/
     .sobre-mi__texto{
