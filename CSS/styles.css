@@ -1,260 +1,265 @@
 html {
-    scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
 :root {
-    --primario: #00ffff;
-    --negro: #000000;
-    --blanco: #ffffff;
-    --fuentePrincipal: "Poppins", sans-serif;
-  }
-  h1,
-  .navegacion__enlace {
-    color: var(--blanco);
-  }
-  h1 {
-    padding: 2rem 0;
-    font-size: 2.5rem;
-  }
-  h2{
-    font-size: 1.8rem;
-    padding: 1rem 0;
-  }
-  h3{
-    font-size: 1.4rem;
-  }
-  h1::before {
-    content: "<>";
-    color: var(--primario);
-  }
-  h1::after {
-    content: "</>";
-    color: var(--primario);
-  }
-  * {
-    font-family: var(--fuentePrincipal);
-  }
-  a {
-    text-decoration: none;
-  }
-  .no-margin {
-    margin: 0;
-  }
-  .no-padding {
-    padding: 0;
-  }
-  .texto-centrado {
-    text-align: center;
-  }
-  /*Header Generales*/
-  .header-contenedor {
-    height: 100%;
-  } 
-  .header {
-    background-image: url(../IMG/headerbackground.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-  }
-  .header__h2 {
-    color: var(--blanco);
-    font-weight: 200;
-    padding: 3rem 0;
-    
-  }
-  .span-weight {
-    font-weight: 600;
-  }
-  .span-color {
-    color: var(--primario);
-  }
-  .boton-cv {
-    border: none;
-    color: var(--negro);
-    background-color: var(--primario);
-    height: 2.5rem;
-    width: 8rem;
-    border-radius: 0.3rem;
-    cursor: pointer;
-    transition: .4s;
-  }
-  .botones {
-    padding: 2rem 0;
-  }
-  .boton {
-    background-color: var(--primario);
-    margin: 0 0.2rem;
-    border-radius: 50%;
-    height: 3rem;
-    width: 3rem;
-    transition: .4s;
-  }
-  .boton-cv:hover,.boton:hover{
-    box-shadow: 0 0 .7rem var(--primario);
-  }
-  .navegacion__li {
-    list-style-type: none;
-    margin: 0.5rem 0;
-  }
-    .navegacion__enlace {
-      margin: 0 1rem;
-    }
-    .navegacion__enlace:last-of-type{
-      margin-right: 0;
-    }
-    /*Fin header generales*/
+  --primario: #00ffff;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --fuentePrincipal: "Poppins", sans-serif;
+}
+h1,
+.navegacion__enlace {
+  color: var(--blanco);
+}
+h1 {
+  padding: 2rem 0;
+  font-size: 2.5rem;
+}
+h1::before {
+  content: "<>";
+  color: var(--primario);
+}
+h1::after {
+  content: "</>";
+  color: var(--primario);
+}
+h2 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h3 {
+  font-size: 1.4rem;
+}
+
+* {
+  font-family: var(--fuentePrincipal);
+}
+a {
+  text-decoration: none;
+}
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.texto-centrado {
+  text-align: center;
+}
+/*Header Generales*/
+.header {
+  background-image: url(../IMG/headerbackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+.header__h2 {
+  color: var(--blanco);
+  font-weight: 200;
+  padding: 3rem 0;
+}
+.span-weight {
+  font-weight: 600;
+}
+.span-color {
+  color: var(--primario);
+}
+.boton-cv {
+  border: none;
+  color: var(--negro);
+  background-color: var(--primario);
+  height: 2.5rem;
+  width: 8rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.botones {
+  padding: 2rem 0;
+}
+.boton {
+  background-color: var(--primario);
+  margin: 0 0.2rem;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  transition: all 0.4s;
+}
+.boton-cv:hover,
+.boton:hover {
+  box-shadow: 0 0 0.7rem var(--primario);
+}
+.navegacion__li {
+  list-style-type: none;
+  margin: 0.5rem 0;
+}
+.navegacion__enlace {
+  margin: 0 1rem;
+}
+.navegacion__enlace:last-of-type {
+  margin-right: 0;
+}
+/*Fin header generales*/
 
 /*Sobre Mi Generales*/
-.sobre-mi-contenedor {
-    margin: 0 4rem;
+.sobre-mi-margin {
+  margin: 0px 2rem;
 }
 /*Fin sobre mi generales*/
 
 /*Mis habilidades Generales*/
-.mis-habilidades{
-    margin: 2rem 0;
+.mis-habilidades {
+  margin: 2rem 0;
 }
-.habilidad{
-    margin: 1rem;
+.habilidad {
+  margin: 1rem;
 }
-.mis-habilidades__aptitudes{
-    margin: 0 2rem;
+.mis-habilidades__aptitudes {
+  margin: 0 2rem;
 }
-.mis-habilidades__h3{
-    font-weight: 200;
+.mis-habilidades__h3 {
+  font-weight: 200;
 }
-.html-imagen{
+.html-imagen,
+.css-imagen {
   width: 8rem;
 }
-.css-imagen{
-  width: 8rem;
-}
-.js-imagen{
+.js-imagen {
   width: 9rem;
 }
-.habilidades__h3{
+.habilidades__h3 {
   font-weight: 200;
 }
 /*Fin mis habilidades generales*/
 
 /*Servicios generales*/
-.servicios{
+.servicios {
   margin: 2rem 0;
 }
-.servicios__texto{
-  margin:1.5rem 2rem;
+.servicios__texto {
+  margin: 1.5rem 2rem;
   font-weight: 200;
 }
 /*Fin servicios generales*/
 
 /*Portfolio generales*/
-.proyecto__imagen{
+.proyecto__imagen {
   width: 100%;
-  transition: .4s;
+  transition: all 0.4s;
 }
-.proyecto__h3{
+.proyecto__h3 {
   margin: 1rem 0;
   font-size: 1.2rem;
 }
-.proyecto__boton{
+.proyecto__boton {
   border: none;
   background-color: rgba(155, 155, 155, 0.5);
-  padding: .5rem 1rem;
-  border-radius: .2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
   margin-bottom: 1rem;
 
   cursor: pointer;
-  transition: .4s;
+  transition: all 0.4s;
 }
 /* Fin portfolio generales */
 
 /*Contactame generales*/
-.contactame{
-    margin: 0 auto;
+.contactame {
+  margin: 0 auto;
 }
-.instagram-logo,.linkedin-logo,.wpp-logo{
-    width: 8rem;
+.instagram-logo,
+.linkedin-logo,
+.wpp-logo {
+  width: 7rem;
 }
-.wpp-logo,.linkedin-logo,.instagram-logo{
-    transition: .3s;
+.wpp-logo,
+.linkedin-logo,
+.instagram-logo {
+  transition: all 0.3s;
 }
-.wpp-logo:hover,.linkedin-logo:hover,.instagram-logo:hover{
-    transform: scale(1.1);
+.wpp-logo:hover,
+.linkedin-logo:hover,
+.instagram-logo:hover {
+  transform: scale(1.1);
 }
-.contacto__texto{
+.contacto__texto {
   padding: 1rem 0;
 }
 /*Fin contacto generales*/
 /*Footer generales*/
-.footer{
-    background-color: #000000;
+.footer {
+  background-color: var(--negro);
 }
-.footer__texto{
-    height: 3rem;
-    color: #fff;
-    margin: 0;
-    padding: 0;
+.footer__texto {
+  height: 3rem;
+  color: var(--blanco);
+  margin: 0;
+  padding: 0;
 }
-
 
 /*Mobile*/
 @media only screen and (max-width: 600px) {
-    /*Header*/
-    .header__h1 {
-      font-size: 1.5rem;
-    }
-    .navegacion__ul {
-      flex-direction: column;
-    }
-    .navegacion__enlace {
-      margin: 0;
-      font-size: 1.3rem;
-    }
-
-    /*Mis Habilidades*/
-
-    /*Contactame*/
-    .contacto-flexbox {
-        flex-direction: column;
-    }
+  /*Header*/
+  .header__h1 {
+    font-size: 1.5rem;
+  }
+  .navegacion__ul {
+    flex-direction: column;
+  }
+  .navegacion__enlace {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  /*Servicios*/
+  .servicios:first-of-type {
+    margin-top: 0;
+  }
+  /*Contactame*/
+  .contacto-flexbox {
+    flex-direction: column;
+  }
 }
-
 
 /*Tablet*/
 @media only screen and (min-width: 601px) and (max-width: 799px) {
-    /*Servicios*/
-    .servicios__texto{
-      margin: 0 10rem;
-    }
+  /*Servicios*/
+  .servicios__texto {
+    margin: 0 10rem;
+  }
 }
 /*Laptop*/
-@media only screen and (min-width: 800px){
-    .header{
-        height: 35rem;
-    }
-    .header-contenedor{
-        height: 100%;
-    }
-    .navegacion__enlace{
-        padding-bottom: .5rem;
-        background-image: linear-gradient(currentColor, currentColor);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size .3s;
-    }
-    .navegacion__enlace:hover,.navegacion__enlace:focus{
-        background-size: 100% 2px;
-        color:var(--blanco)
-    }
-    /*Sobre mi*/
-    .sobre-mi__texto{
-        margin: 1rem 8rem;
-    }
-    .proyecto__imagen:hover{
-      box-shadow: 0 0 1.5rem #000000;
-    }
-    .proyecto__boton:hover{
-      transform:scale(1.1) ;
-    }
+@media only screen and (min-width: 800px) {
+  /*Header*/
+  .navegacion__enlace {
+    padding-bottom: 0.5rem;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+  }
+  .navegacion__enlace:hover,
+  .navegacion__enlace:focus {
+    background-size: 100% 2px;
+    color: var(--blanco);
+  }
+  /*Sobre mi*/
+  .sobre-mi__texto {
+    margin: 1rem 8rem;
+  }
+  /*Servicios*/
+  #servicios{
+    margin: 0 4rem;
+  }
+  /*Portfolio*/
+  .proyecto__imagen:hover {
+    box-shadow: 0 0 1.5rem #000000;
+  }
+  .proyecto__boton:hover {
+    transform: scale(1.1);
+  }
 }
+
+
