@@ -16,7 +16,12 @@
     <link rel="preload" href="CSS/normalize.css" as="style" />
     <link rel="stylesheet" href="CSS/normalize.css" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!-- CSS -->
     <link rel="preload" href="CSS/styles.css" as="style" />
     <link rel="stylesheet" href="CSS/styles.css" />
@@ -25,42 +30,43 @@
     <!-- Inicio del header -->
     <header class="header">
       <div class="header-contenedor">
-        <div class="header--barra-superior">
-          <a href="index.html">
-            <h1 class="header__h1 no-margin texto-centrado">
-              José Alvarez Martinez
-            </h1>
-          </a>
-          <nav class="navegacion">
-            <ul class="navegacion__ul no-margin no-padding">
-              <li class="navegacion__li">
-                <a class="navegacion__enlace" href="index.html">Inicio</a>
-              </li>
-              <li class="navegacion__li">
-                <a class="navegacion__enlace" href="#sobremi">Sobre Mí</a>
-              </li>
-              <li class="navegacion__li">
-                <a class="navegacion__enlace" href="#habilidades">Habilidades</a>
-              </li>
-              <li class="navegacion__li">
-                <a class="navegacion__enlace" href="#servicios">Servicios</a>
-              </li>
-              <li class="navegacion__li">
-                <a class="navegacion__enlace" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="navegacion__li">
-                <a class="navegacion__enlace" href="#contactame">Contáctame</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <a href="index.html">
+          <h1 class="header__h1 no-margin texto-centrado">
+            José Alvarez Martinez
+          </h1>
+        </a>
+        <nav class="navegacion">
+          <ul class="navegacion__ul no-margin no-padding">
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="index.html">Inicio</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="#sobremi">Sobre Mí</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="#servicios">Servicios</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="navegacion__li">
+              <a class="navegacion__enlace" href="#contactame">Contáctame</a>
+            </li>
+          </ul>
+        </nav>
 
         <h2 class="header__h2 no-margin">
-          Hola! <span class="span-weight texto-centrado">Soy José Alvarez Martinez</span
+          Hola!
+          <span class="span-weight texto-centrado"
+            >Soy José Alvarez Martinez</span
           ><span class="span-color texto-centrado"
             >f r o n t e n d &nbsp; d e v e l o p e r</span
           >
         </h2>
+
         <div class="header-botones">
           <button class="boton-cv">Descargar CV</button>
           <div class="botones">
@@ -115,9 +121,10 @@
       </div>
     </header>
     <!-- Fin del header -->
+
     <!-- Inicio sobre mi -->
-    <section id="sobremi" class="sobre-mi">
-      <h2 class="sobre-mi__h2 texto-centrado">Sobre Mi</h2>
+    <section id="sobremi">
+      <h2 class="texto-centrado">Sobre Mi</h2>
       <div class="sobre-mi-contenedor">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -156,27 +163,37 @@
     <!-- Fin sobre mi -->
 
     <!-- Inicio de mis habilidades -->
-    <section id="habilidades" class="mis-habilidades">
-      <h2 class="mis-habilidades__h2 texto-centrado">Mis Habilidades</h2>
-      <h3 class="mis-habilidades__h3 texto-centrado">Tecnologías que manejo</h3>
-        <div class="mis-habilidades__flex">
-          <div class="html habilidad">
-            <img class="html-imagen" src="img/512px-HTML5_logo_and_wordmark.svg.png" alt="Logotipo de HTML5">
-            <p class="habilidad__texto texto-centrado">HTML5</p>
-          </div>
-          <div class="css3 habilidad">
-            <img class="css-imagen" src="img/css3.png" alt="Logotipo de css3">
-            <p class="habilidad__texto texto-centrado">CSS3</p>
-          </div>
-          <div class="javascript habilidad">
-            <img class="js-imagen" src="img/js.png" alt="Logotipo de Javascript">
-            <p class="habilidad__texto texto-centrado">Javascript</p>
-          </div>
+    <section id="habilidades">
+      <h2 class="texto-centrado">Mis Habilidades</h2>
+      <h3 class="texto-centrado">Tecnologías que manejo</h3>
+      <div class="mis-habilidades__flex">
+        <div class="html habilidad">
+          <img
+            class="html-imagen"
+            src="img/512px-HTML5_logo_and_wordmark.svg.png"
+            alt="Logotipo de HTML5"
+          />
+          <p class="habilidad__texto texto-centrado">HTML5</p>
+        </div>
+        <div class="css3 habilidad">
+          <img class="css-imagen" src="img/css3.png" alt="Logotipo de CSS3" />
+          <p class="habilidad__texto texto-centrado">CSS3</p>
+        </div>
+        <div class="javascript habilidad">
+          <img
+            class="js-imagen"
+            src="img/js.png"
+            alt="Logotipo de Javascript"
+          />
+          <p class="habilidad__texto texto-centrado">Javascript</p>
+        </div>
 
         <div class="mis-habilidades__aptitudes texto-centrado">
           <h3 class="mis-habilidades__h3">Otras Aptitudes</h3>
           <p class="mis-habilidades__texto">-Soy una persona proactiva.</p>
-          <p class="mis-habilidades__texto">-Me gusta enseñar y compartir mis conocimientos</p>
+          <p class="mis-habilidades__texto">
+            -Me gusta enseñar y compartir mis conocimientos
+          </p>
           <p class="mis-habilidades__texto">-Empatía y trabajo en equipo</p>
         </div>
       </div>
@@ -184,101 +201,148 @@
     <!-- Fin de mis habilidades -->
 
     <!-- Inicio de mis servicios  -->
-    <section id="servicios" class="mis-servicios">
-      <h2 class="mis-servicios__h2 texto-centrado">Mis Servicios</h2>
+    <section id="servicios">
+      <h2 class="texto-centrado">Mis Servicios</h2>
       <div class="mis-servicios-flex">
-      <div class="servicios desarrollo-web">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <line x1="3" y1="19" x2="21" y2="19" />
-          <rect x="5" y="6" width="14" height="10" rx="1" />
-        </svg>
-        <h3 class="servicios__titulo">Desarrollo Web</h3>
-        <p class="servicios__texto texto-centrado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia esse dolorem minima veniam architecto obcaecati tenetur at distinctio nobis! Illum sed labore expedita magni! Vero error odio est adipisci ratione aperiam numquam hic, accusantium ut dolor, harum illo sequi. Inventore?</p>
-      </div>
-        
-      <div class="servicios responsive">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <rect x="13" y="8" width="8" height="12" rx="1" />
-          <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
-          <line x1="16" y1="9" x2="18" y2="9" />
-        </svg>
-        <h3 class="servicios__titulo">Responsive Design</h3>
-        <p class="servicios__texto texto-centrado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia esse dolorem minima veniam architecto obcaecati tenetur at distinctio nobis! Illum sed labore expedita magni! Vero error odio est adipisci ratione aperiam numquam hic, accusantium ut dolor, harum illo sequi. Inventore?</p>
-      </div>
+        <div class="servicios desarrollo-web">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-device-laptop"
+            width="100"
+            height="100"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#000000"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="3" y1="19" x2="21" y2="19" />
+            <rect x="5" y="6" width="14" height="10" rx="1" />
+          </svg>
+          <h3 class="servicios__titulo">Desarrollo Web</h3>
+          <p class="servicios__texto texto-centrado">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+            esse dolorem minima veniam architecto obcaecati tenetur at
+            distinctio nobis! Illum sed labore expedita magni! Vero error odio
+            est adipisci ratione aperiam numquam hic, accusantium ut dolor,
+            harum illo sequi. Inventore?
+          </p>
+        </div>
 
-      <div class="servicios a-tiempo">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <circle cx="12" cy="12" r="9" />
-          <polyline points="12 7 12 12 15 15" />
-        </svg>
-        <h3 class="servicios__titulo">A tiempo</h3>
-        <p class="servicios__texto texto-centrado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia esse dolorem minima veniam architecto obcaecati tenetur at distinctio nobis! Illum sed labore expedita magni! Vero error odio est adipisci ratione aperiam numquam hic, accusantium ut dolor, harum illo sequi. Inventore?</p>
+        <div class="servicios responsive">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-devices"
+            width="100"
+            height="100"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#000000"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="13" y="8" width="8" height="12" rx="1" />
+            <path
+              d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9"
+            />
+            <line x1="16" y1="9" x2="18" y2="9" />
+          </svg>
+          <h3 class="servicios__titulo">Responsive Design</h3>
+          <p class="servicios__texto texto-centrado">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+            esse dolorem minima veniam architecto obcaecati tenetur at
+            distinctio nobis! Illum sed labore expedita magni! Vero error odio
+            est adipisci ratione aperiam numquam hic, accusantium ut dolor,
+            harum illo sequi. Inventore?
+          </p>
+        </div>
+
+        <div class="servicios a-tiempo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-clock"
+            width="100"
+            height="100"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#000000"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="12" r="9" />
+            <polyline points="12 7 12 12 15 15" />
+          </svg>
+          <h3 class="servicios__titulo">A tiempo</h3>
+          <p class="servicios__texto texto-centrado">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+            esse dolorem minima veniam architecto obcaecati tenetur at
+            distinctio nobis! Illum sed labore expedita magni! Vero error odio
+            est adipisci ratione aperiam numquam hic, accusantium ut dolor,
+            harum illo sequi. Inventore?
+          </p>
+        </div>
       </div>
-    </div>
     </section>
     <!-- Fin de mis servicios -->
 
-   <!-- Inicio de mi Portfolio -->
-   <main id="portfolio" class="portfolio">
-    <h2 class="portfolio__h2 texto-centrado">Portfolio</h2>
+    <!-- Inicio de mi Portfolio -->
+    <main id="portfolio" class="portfolio">
+      <h2 class="portfolio__h2 texto-centrado">Portfolio</h2>
 
-  
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="">
+            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="Portada del proyecto" />
             <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
-              <div class="proyecto-boton-centrado">
-                <button class="proyecto__boton">Ver Proyecto</button>
-              </div>
+            <div class="proyecto-boton-centrado">
+              <button class="proyecto__boton">Ver Proyecto</button>
+            </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="">
-              <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
-              <div class="proyecto-boton-centrado">
-                <button class="proyecto__boton">Ver Proyecto</button>
-              </div>
+            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="Portada del proyecto" />
+            <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
+            <div class="proyecto-boton-centrado">
+              <button class="proyecto__boton">Ver Proyecto</button>
+            </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="">
-              <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
-              <div class="proyecto-boton-centrado">
-                <button class="proyecto__boton">Ver Proyecto</button>
-              </div>
+            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="Portada del proyecto" />
+            <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
+            <div class="proyecto-boton-centrado">
+              <button class="proyecto__boton">Ver Proyecto</button>
+            </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="">
-              <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
-              <div class="proyecto-boton-centrado">
-                <button class="proyecto__boton">Ver Proyecto</button>
-              </div>
+            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="Portada del proyecto" />
+            <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
+            <div class="proyecto-boton-centrado">
+              <button class="proyecto__boton">Ver Proyecto</button>
+            </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="">
-              <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
-              <div class="proyecto-boton-centrado">
-                <button class="proyecto__boton">Ver Proyecto</button>
-              </div>
+            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="Portada del proyecto" />
+            <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
+            <div class="proyecto-boton-centrado">
+              <button class="proyecto__boton">Ver Proyecto</button>
+            </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="">
-              <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
-              <div class="proyecto-boton-centrado">
-                <button class="proyecto__boton">Ver Proyecto</button>
-              </div>
+            <img class="proyecto__imagen" src="IMG/coomingsoon.jpg" alt="Portada del proyecto" />
+            <h3 class="proyecto__h3 texto-centrado">Nombre del proyecto</h3>
+            <div class="proyecto-boton-centrado">
+              <button class="proyecto__boton">Ver Proyecto</button>
+            </div>
           </div>
         </div>
-        
       </div>
-     
-
-    </div>
-  </main>
-  <!-- Fin del portfolio -->
-
+    </main>
+    <!-- Fin del portfolio -->
 
     <!-- Inicio de contacto -->
     <section class="contactame" id="contactame">
@@ -315,9 +379,15 @@
     <!-- Fin del contacto -->
     <!-- Inicio del footer -->
     <footer class="footer">
-      <p class="footer__texto texto-centrado">Todos los derechos reservados &copy;</p>
+      <p class="footer__texto texto-centrado">
+        Todos los derechos reservados &copy;
+      </p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
