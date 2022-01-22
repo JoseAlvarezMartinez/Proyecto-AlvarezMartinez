@@ -205,9 +205,6 @@ a {
   .header__h1 {
     font-size: 1.5rem;
   }
-  .navegacion__ul {
-    flex-direction: column;
-  }
   .navegacion__enlace {
     margin: 0;
     font-size: 1.3rem;
@@ -215,10 +212,6 @@ a {
   /*Servicios*/
   .servicios:first-of-type {
     margin-top: 0;
-  }
-  /*Contactame*/
-  .contacto-flexbox {
-    flex-direction: column;
   }
 }
 
