@@ -125,10 +125,10 @@ a {
   margin: 1rem 0;
 }
 .html-imagen,
-.css-imagen {
+.css-imagen{
   width: 8rem;
 }
-.js-imagen {
+.js-imagen,.boostrap-imagen{
   width: 9rem;
 }
 .habilidades__h3 {
