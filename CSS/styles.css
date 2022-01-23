@@ -7,8 +7,7 @@ html {
   --blanco: #ffffff;
   --fuentePrincipal: "Poppins", sans-serif;
 }
-h1,
-.navegacion__enlace {
+h1{
   color: var(--blanco);
 }
 h1 {
@@ -91,13 +90,7 @@ a {
 .boton:hover {
   box-shadow: 0 0 0.7rem var(--primario);
 }
-.navegacion__li {
-  list-style-type: none;
-  margin: 0.5rem 0;
-}
-.navegacion__enlace {
-  margin: 0 1rem;
-}
+
 
 /*Fin header generales*/
 
@@ -215,25 +208,17 @@ a {
   .header__h1 {
     font-size: 1.5rem;
   }
-  .navegacion__enlace {
-    margin: 0;
-  }
   /*Servicios*/
   .servicios:first-of-type {
     margin-top: 0;
-  }
-}
-
-@media only screen and (max-width:767px){
-  .navegacion__enlace{
-    font-size: 1.3rem;
   }
 }
 /*Laptop*/
 @media only screen and (min-width: 800px) {
   /*Header*/
   .navegacion__enlace {
-    padding-bottom: 0.5rem;
+    margin: 0 .2rem;
+    padding-bottom: .4rem;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -264,18 +249,4 @@ a {
   .proyecto__boton:hover {
     transform: scale(1.1);
   }
-}
-
-.boton-fixed{
-  background-color: var(--negro);
-  width:4rem;
-  height: 4rem;
-
-
-  border-radius: 50%;
-
-  position:fixed ;
-  bottom: 2rem;
-  right: 2rem;
-
 }
