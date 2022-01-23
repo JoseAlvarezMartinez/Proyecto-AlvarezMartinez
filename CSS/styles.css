@@ -81,7 +81,7 @@ a {
 }
 .boton {
   background-color: var(--primario);
-  margin: 0 0.2rem;
+  margin: 1rem 0.2rem;
   border-radius: 50%;
   height: 3rem;
   width: 3rem;
@@ -98,9 +98,7 @@ a {
 .navegacion__enlace {
   margin: 0 1rem;
 }
-.navegacion__enlace:last-of-type {
-  margin-right: 0;
-}
+
 /*Fin header generales*/
 
 /*Sobre Mi Generales*/
@@ -111,16 +109,17 @@ a {
 
 /*Mis habilidades Generales*/
 .mis-habilidades {
-  margin: 2rem 0;
+  margin: 2rem .5rem;
 }
 .habilidad {
   margin: 1rem;
 }
-.mis-habilidades__aptitudes {
-  margin: 0 2rem;
-}
-.mis-habilidades__h3 {
+
+.mis-habilidades__texto{
   font-weight: 200;
+}
+.habilidad__texto{
+  margin: 1rem 0;
 }
 .html-imagen,
 .css-imagen {
@@ -166,9 +165,6 @@ a {
 /* Fin portfolio generales */
 
 /*Contactame generales*/
-.contactame {
-  margin: 0 auto;
-}
 .instagram-logo,
 .linkedin-logo,
 .wpp-logo {
@@ -185,7 +181,7 @@ a {
   transform: scale(1.1);
 }
 .contacto__texto {
-  padding: 1rem 0;
+  margin: 1rem 0;
 }
 /*Fin contacto generales*/
 /*Footer generales*/
@@ -207,7 +203,6 @@ a {
   }
   .navegacion__enlace {
     margin: 0;
-    font-size: 1.3rem;
   }
   /*Servicios*/
   .servicios:first-of-type {
@@ -215,11 +210,9 @@ a {
   }
 }
 
-/*Tablet*/
-@media only screen and (min-width: 601px) and (max-width: 799px) {
-  /*Servicios*/
-  .servicios__texto {
-    margin: 0 10rem;
+@media only screen and (max-width:767px){
+  .navegacion__enlace{
+    font-size: 1.3rem;
   }
 }
 /*Laptop*/
@@ -241,6 +234,10 @@ a {
   /*Sobre mi*/
   .sobre-mi__texto {
     margin: 1rem 8rem;
+  }
+  /*Mis Habilidades*/
+  .mis-habilidades__aptitudes {
+    margin-left:2rem;
   }
   /*Servicios*/
   #servicios{
