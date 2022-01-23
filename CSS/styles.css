@@ -116,8 +116,11 @@ a {
 }
 .habilidad {
   margin: 1rem;
+  transition: all .3s;
 }
-
+.habilidad:hover{
+  transform: translateY(-20px);
+}
 .mis-habilidades__texto{
   font-weight: 200;
 }
@@ -262,3 +265,4 @@ a {
     transform: scale(1.1);
   }
 }
+
