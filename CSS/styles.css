@@ -105,6 +105,9 @@ a {
 .sobre-mi-margin {
   margin: 0px 2rem;
 }
+.sobre-mi__texto {
+  font-size: 1.1rem;
+}
 /*Fin sobre mi generales*/
 
 /*Mis habilidades Generales*/
@@ -140,6 +143,14 @@ a {
 .servicios__texto {
   margin: 1.5rem 2rem;
   font-weight: 200;
+}
+.servicio{
+  width:100%;
+}
+.servicios-boton{
+  font-weight: bold;
+  color: var(--negro);
+  text-decoration: underline;
 }
 /*Fin servicios generales*/
 
@@ -251,5 +262,3 @@ a {
     transform: scale(1.1);
   }
 }
-
-
