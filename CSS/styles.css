@@ -1,3 +1,6 @@
+
+
+/*# sourceMappingURL=styles.css.map */
 html {
   scroll-behavior: smooth;
 }
@@ -126,6 +129,9 @@ a {
 }
 .js-imagen,.boostrap-imagen,.git-imagen,.github-imagen{
   width: 9rem;
+}
+.sass-imagen{
+  width: 12rem;
 }
 .habilidades__h3 {
   font-weight: 200;
