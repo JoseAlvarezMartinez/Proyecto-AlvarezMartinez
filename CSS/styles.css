@@ -2,7 +2,6 @@
 .header__h2 {
   color: #ffffff;
 }
-
 .span-color {
   color: #00ffff;
 }
@@ -41,6 +40,10 @@ h1::after {
 /*# sourceMappingURL=styles.css.map */
 html {
   scroll-behavior: smooth;
+}
+:root{
+  --blanco:#ffffff;
+  --negro:#000000;
 }
 h2 {
   font-size: 1.8rem;
