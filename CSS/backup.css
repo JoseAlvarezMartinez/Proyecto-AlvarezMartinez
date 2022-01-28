@@ -141,14 +141,8 @@
     margin: 1.5rem 2rem;
     font-weight: 200;
   }
-  .servicio{
-    width:100%;
-  }
-  .servicios-boton{
-    font-weight: bold;
-    color: var(--negro);
-    text-decoration: underline;
-  }
+
+
   /*Fin servicios generales*/
   
   /*Portfolio generales*/
@@ -156,10 +150,7 @@
     width: 100%;
     transition: all 0.4s;
   }
-  .proyecto__h3 {
-    margin: 1rem 0;
-    font-size: 1.2rem;
-  }
+
   .proyecto__boton {
     border: none;
     background-color: rgba(155, 155, 155, 0.5);
@@ -188,9 +179,7 @@
   .instagram-logo:hover {
     transform: scale(1.1);
   }
-  .contacto__texto {
-    margin: 1rem 0;
-  }
+
   /*Fin contacto generales*/
   /*Footer generales*/
   .footer {

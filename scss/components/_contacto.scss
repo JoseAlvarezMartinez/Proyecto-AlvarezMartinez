@@ -1,0 +1,12 @@
+/*Inicio contacto*/
+.instagram-logo,
+.linkedin-logo,
+.wpp-logo {
+  width: 7rem;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+  
+}
+/*Fin contacto*/

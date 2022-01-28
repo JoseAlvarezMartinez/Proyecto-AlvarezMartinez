@@ -1,0 +1,21 @@
+/*Inicio portfolio*/
+.proyecto__imagen{
+    transition: all .3s;
+
+    &:hover{
+        box-shadow: 0 0 2rem $negro;
+    }
+}
+.proyecto__h3{
+    font-size: 1.2rem;
+}
+.btn{
+    background-color: rgba(155, 155, 155, 0.5);
+    transition: all .4s;
+
+    &:hover{
+        background-color: rgba(155, 155, 155, 0.5);
+        transform: scale(1.1);
+    }
+}
+/*Fin portfolio*/

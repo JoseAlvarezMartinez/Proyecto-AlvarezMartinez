@@ -102,5 +102,45 @@ h1::after {
 }
 
 /*Fin servicios*/
+/*Inicio portfolio*/
+.proyecto__imagen {
+  transition: all 0.3s;
+}
+.proyecto__imagen:hover {
+  box-shadow: 0 0 2rem #000000;
+}
+
+.proyecto__h3 {
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: rgba(155, 155, 155, 0.5);
+  transition: all 0.4s;
+}
+.btn:hover {
+  background-color: rgba(155, 155, 155, 0.5);
+  transform: scale(1.1);
+}
+
+/*Fin portfolio*/
+/*Inicio contacto*/
+.instagram-logo,
+.linkedin-logo,
+.wpp-logo {
+  width: 7rem;
+  transition: all 0.3s;
+}
+.instagram-logo:hover,
+.linkedin-logo:hover,
+.wpp-logo:hover {
+  transform: scale(1.1);
+}
+
+/*Fin contacto*/
+/*Inicio Footer*/
+.footer {
+  background-color: #000000;
+}
 
 /*# sourceMappingURL=styles.css.map */
