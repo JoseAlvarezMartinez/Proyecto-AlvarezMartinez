@@ -1,2 +1,64 @@
+/*Header*/
+h1 {
+  color: #ffffff;
+}
+
+h1::before {
+  content: "<>";
+  color: #00ffff;
+}
+
+h1::after {
+  content: "</>";
+  color: #00ffff;
+}
+
+.header {
+  background-image: url(../IMG/headerbackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.nav-link {
+  font-size: 1.15rem;
+  margin: 0 0.2rem;
+  padding-bottom: 0.4rem;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.nav-link:hover, .nav-link:focus {
+  background-size: 100% 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    font-size: 1.3rem;
+  }
+}
+.boton {
+  margin: 1rem 0.2rem;
+  height: 3rem;
+  width: 3rem;
+  transition: all 0.3s;
+  background-color: #00ffff;
+}
+.boton:hover {
+  box-shadow: 0 0 0.7rem #00ffff;
+}
+
+.boton-cv {
+  background-color: #00ffff;
+  transition: all 0.3s;
+}
+.boton-cv:hover {
+  box-shadow: 0 0 0.7rem #00ffff;
+}
+
+/*Fin Header*/
 
 /*# sourceMappingURL=styles.css.map */
