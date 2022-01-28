@@ -66,5 +66,31 @@ h1::after {
 }
 
 /*Fin Sobre Mi*/
+/*Inicio Habilidades*/
+.html-imagen,
+.css-imagen {
+  width: 8rem;
+}
+
+.js-imagen, .boostrap-imagen, .git-imagen, .github-imagen {
+  width: 9rem;
+}
+
+.sass-imagen {
+  width: 12rem;
+}
+
+.habilidad {
+  transition: all 0.3s;
+}
+.habilidad:hover {
+  transform: translateY(-20px);
+}
+
+.mis-habilidades__texto {
+  font-size: 1.2rem;
+}
+
+/*Fin Habilidades*/
 
 /*# sourceMappingURL=styles.css.map */
