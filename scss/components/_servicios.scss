@@ -1,0 +1,10 @@
+/*Inicio servicios*/
+.servicios-boton{
+    color: $negro;
+    transition: all .3s;
+
+    &:hover{
+        color:$color-primario;
+    }
+  }
+/*Fin servicios*/

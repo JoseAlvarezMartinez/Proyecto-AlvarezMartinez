@@ -92,5 +92,15 @@ h1::after {
 }
 
 /*Fin Habilidades*/
+/*Inicio servicios*/
+.servicios-boton {
+  color: #000000;
+  transition: all 0.3s;
+}
+.servicios-boton:hover {
+  color: #00ffff;
+}
+
+/*Fin servicios*/
 
 /*# sourceMappingURL=styles.css.map */
