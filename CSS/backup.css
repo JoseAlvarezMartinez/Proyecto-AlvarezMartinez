@@ -1,0 +1,252 @@
+/*Header*/
+.header__h2 {
+    color: #ffffff;
+  }
+  .span-color {
+    color: #00ffff;
+  }
+  
+  .boton-cv {
+    color: #000000;
+    background-color: #00ffff;
+  }
+  .boton-cv:hover {
+    box-shadow: 0 0 0.7rem #00ffff;
+  }
+  
+  .boton {
+    background-color: #00ffff;
+  }
+  .boton:hover {
+    box-shadow: 0 0 0.7rem #00ffff;
+  }
+  
+  h1 {
+    color: #ffffff;
+    padding: 2rem 0;
+    font-size: 2.5rem;
+  }
+  
+  h1::before {
+    content: "<>";
+    color: #00ffff;
+  }
+  
+  h1::after {
+    content: "</>";
+    color: #00ffff;
+  }
+  
+  /*# sourceMappingURL=styles.css.map */
+  html {
+    scroll-behavior: smooth;
+  }
+  :root{
+    --blanco:#ffffff;
+    --negro:#000000;
+  }
+  h2 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  * {
+    font-family: var(--fuentePrincipal);
+  }
+  a {
+    text-decoration: none;
+  }
+  .no-margin {
+    margin: 0;
+  }
+  .no-padding {
+    padding: 0;
+  }
+  .texto-centrado {
+    text-align: center;
+  }
+  /*Header Generales*/
+
+  .span-weight {
+    font-weight: 600;
+  }
+  .boton-cv {
+    border: none;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  .botones {
+    padding: 2rem 0;
+  }
+  .boton {
+    margin: 1rem 0.2rem;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    transition: all 0.4s;
+  }
+  
+  
+  /*Fin header generales*/
+  
+  /*Sobre Mi Generales*/
+  .sobre-mi-margin {
+    margin: 0px 2rem;
+  }
+  .sobre-mi__texto {
+    font-size: 1.1rem;
+  }
+  /*Fin sobre mi generales*/
+  
+  /*Mis habilidades Generales*/
+  .mis-habilidades {
+    margin: 2rem .5rem;
+  }
+  .habilidad {
+    margin: 1rem;
+    transition: all .3s;
+  }
+  .habilidad:hover{
+    transform: translateY(-20px);
+  }
+  .mis-habilidades__texto{
+    font-weight: 200;
+  }
+  .habilidad__texto{
+    margin: 1rem 0;
+  }
+  .html-imagen,
+  .css-imagen{
+    width: 8rem;
+  }
+  .js-imagen,.boostrap-imagen,.git-imagen,.github-imagen{
+    width: 9rem;
+  }
+  .sass-imagen{
+    width: 12rem;
+  }
+  .habilidades__h3 {
+    font-weight: 200;
+  }
+  /*Fin mis habilidades generales*/
+  
+  /*servicio generales*/
+  .servicios__texto {
+    margin: 1.5rem 2rem;
+    font-weight: 200;
+  }
+  .servicio{
+    width:100%;
+  }
+  .servicios-boton{
+    font-weight: bold;
+    color: var(--negro);
+    text-decoration: underline;
+  }
+  /*Fin servicios generales*/
+  
+  /*Portfolio generales*/
+  .proyecto__imagen {
+    width: 100%;
+    transition: all 0.4s;
+  }
+  .proyecto__h3 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+  .proyecto__boton {
+    border: none;
+    background-color: rgba(155, 155, 155, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+  
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  /* Fin portfolio generales */
+  
+  /*Contactame generales*/
+  .instagram-logo,
+  .linkedin-logo,
+  .wpp-logo {
+    width: 7rem;
+  }
+  .wpp-logo,
+  .linkedin-logo,
+  .instagram-logo {
+    transition: all 0.3s;
+  }
+  .wpp-logo:hover,
+  .linkedin-logo:hover,
+  .instagram-logo:hover {
+    transform: scale(1.1);
+  }
+  .contacto__texto {
+    margin: 1rem 0;
+  }
+  /*Fin contacto generales*/
+  /*Footer generales*/
+  .footer {
+    background-color: var(--negro);
+  }
+  .footer__texto {
+    height: 3rem;
+    color: var(--blanco);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Mobile*/
+  @media only screen and (max-width: 600px) {
+    /*Header*/
+    .header__h1 {
+      font-size: 1.5rem;
+    }
+    /*Servicios*/
+    .servicios:first-of-type {
+      margin-top: 0;
+    }
+  }
+  /*Laptop*/
+  @media only screen and (min-width: 800px) {
+    /*Header*/
+    .navegacion__enlace {
+      margin: 0 .2rem;
+      padding-bottom: .4rem;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size 0.3s;
+    }
+    .navegacion__enlace:hover,
+    .navegacion__enlace:focus {
+      background-size: 100% 2px;
+      color: var(--blanco);
+    }
+    /*Sobre mi*/
+    .sobre-mi__texto {
+      margin: 1rem 8rem;
+    }
+    /*Mis Habilidades*/
+    .mis-habilidades__aptitudes {
+      margin-left:2rem;
+    }
+    /*Servicios*/
+
+    /*Portfolio*/
+    .proyecto__imagen:hover {
+      box-shadow: 0 0 1.5rem #000000;
+    }
+    .proyecto__boton:hover {
+      transform: scale(1.1);
+    }
+  }
+  
