@@ -2,12 +2,10 @@
 h1 {
   color: #ffffff;
 }
-
 h1::before {
   content: "<>";
   color: #00ffff;
 }
-
 h1::after {
   content: "</>";
   color: #00ffff;

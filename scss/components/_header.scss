@@ -2,16 +2,16 @@
 /*Header*/
 h1 {
     color: $blanco;
+    &::before{
+      content: "<>";
+      color:$color-primario;
+    }
+    &::after{
+      content: "</>";
+      color:$color-primario;
+    }
   }
-  h1::before {
-    content: "<>";
-    color: $color-primario;
-  }
-  h1::after {
-    content: "</>";
-    color: $color-primario;
-  }
-  
+
   .header {
     background-image: url(../IMG/headerbackground.png);
     background-size: cover;
