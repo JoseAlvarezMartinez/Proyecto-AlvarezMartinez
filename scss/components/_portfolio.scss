@@ -3,7 +3,7 @@
     transition: all .3s;
 
     &:hover{
-        box-shadow: 0 0 2rem $negro;
+        box-shadow: 0 0 2rem nth($colores,2);
     }
 }
 .proyecto__h3{
