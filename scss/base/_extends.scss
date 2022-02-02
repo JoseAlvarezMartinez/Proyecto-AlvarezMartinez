@@ -1,0 +1,6 @@
+%animaciones-imagenes{
+    transition: all 0.3s;
+    &:hover{
+        transform: translateY(-20px);
+      }
+}

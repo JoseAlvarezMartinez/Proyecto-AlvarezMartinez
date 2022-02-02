@@ -3,9 +3,9 @@
 .linkedin-logo,
 .wpp-logo {
   width: 7rem;
-  transition: all 0.3s;
+  transition:map-get($animaciones-botones, transicion);
   &:hover{
-    transform: scale(1.1);
+    transform:map-get($animaciones-botones, transformacion);
   }
   
 }

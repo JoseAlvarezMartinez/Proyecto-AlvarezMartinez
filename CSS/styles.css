@@ -64,6 +64,13 @@ h1::after {
 }
 
 /*Fin Sobre Mi*/
+.habilidad {
+  transition: all 0.3s;
+}
+.habilidad:hover {
+  transform: translateY(-20px);
+}
+
 /*Inicio Habilidades*/
 .html-imagen,
 .css-imagen {
@@ -76,13 +83,6 @@ h1::after {
 
 .sass-imagen {
   width: 12rem;
-}
-
-.habilidad {
-  transition: all 0.3s;
-}
-.habilidad:hover {
-  transform: translateY(-20px);
 }
 
 .mis-habilidades__texto {
@@ -102,7 +102,7 @@ h1::after {
 /*Fin servicios*/
 /*Inicio portfolio*/
 .proyecto__imagen {
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 .proyecto__imagen:hover {
   box-shadow: 0 0 2rem #000000;
@@ -127,7 +127,7 @@ h1::after {
 .linkedin-logo,
 .wpp-logo {
   width: 7rem;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 .instagram-logo:hover,
 .linkedin-logo:hover,
@@ -139,6 +139,13 @@ h1::after {
 /*Inicio Footer*/
 .footer {
   background-color: #000000;
+}
+
+.habilidad {
+  transition: all 0.3s;
+}
+.habilidad:hover {
+  transform: translateY(-20px);
 }
 
 /*# sourceMappingURL=styles.css.map */
