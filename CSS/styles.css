@@ -84,7 +84,12 @@ h1::after {
 .sass-imagen {
   width: 12rem;
 }
-
+@media only screen and (max-width: 225px) {
+  .html-imagen,
+.css-imagen, .js-imagen, .boostrap-imagen, .git-imagen, .github-imagen, .sass-imagen {
+    width: 100%;
+  }
+}
 .mis-habilidades__texto {
   font-size: 1.2rem;
 }
